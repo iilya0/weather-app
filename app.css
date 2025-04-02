@@ -191,3 +191,18 @@ form button:active {
     padding: .125rem .25rem;
     margin-left: .5rem;
 }
+
+@media screen and (min-width: 560px) {
+    .cities {
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    }
+
+    .cities li {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .city_conditions {
+        margin-bottom: 1.5rem;
+    }
+}
