@@ -39,8 +39,8 @@ function isDuplicate(query) {
 	const items = list.querySelectorAll('li');
 
 	return Array.from(items).some(item => {
-		const name = item.querySelector('.city_name')?.textContent.toLowerCase();
-		const code = item.querySelector('.city_country')?.textContent.toLowerCase();
+		const name = item.querySelector('.city_name').textContent.toLowerCase();
+		const code = item.querySelector('.city_country').textContent.toLowerCase();
 
 		if (country && country.length <= 2) {
 			return name === city && code === country;
