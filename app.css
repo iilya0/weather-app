@@ -159,3 +159,35 @@ form button:active {
 	display: flex;
 	gap: .5rem;
 }
+
+.cities {
+    display: grid;
+    padding: 0;
+    list-style: none;
+    gap: 2rem;
+    margin-bottom: 0 0 4rem;
+}
+
+.cities li {
+    display: flex;
+    gap: 1.5rem;
+    background-color: white;
+    align-items: center;
+    padding: 1.5rem;
+    color: var(--p-shade-80);
+    border-radius: var(--global-border-radius);
+    box-shadow: 8px 8px 0px rgba(255, 255, 255, 0.8);
+}
+
+.city_conditions {
+    color: var(--p-tint-40);
+    margin-bottom: 1rem;
+}
+
+.city_country {
+    color: white;
+    background-color: var(--tertiary);
+    border-radius: var(--global-border-radius);
+    padding: .125rem .25rem;
+    margin-left: .5rem;
+}
